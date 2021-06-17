@@ -1,0 +1,14 @@
+C:\Users\Subha\Desktop\Projects\Mearsk\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\Subha\Desktop\Projects\Mearsk\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\Subha\Desktop\Projects\Mearsk\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\Subha\Desktop\Projects\Mearsk\ConsoleApp2\obj\Debug\ProductPromotion.csprojAssemblyReference.cache
+C:\Users\Subha\Desktop\Projects\Mearsk\ConsoleApp2\obj\Debug\ProductPromotion.csproj.CoreCompileInputs.cache
+C:\Users\Subha\Desktop\Projects\Mearsk\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\Subha\Desktop\Projects\Mearsk\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+C:\Users\Subha\Desktop\Projects\Maersk\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\Subha\Desktop\Projects\Maersk\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\Subha\Desktop\Projects\Maersk\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\Subha\Desktop\Projects\Maersk\ConsoleApp2\obj\Debug\ProductPromotion.csprojAssemblyReference.cache
+C:\Users\Subha\Desktop\Projects\Maersk\ConsoleApp2\obj\Debug\ProductPromotion.csproj.CoreCompileInputs.cache
+C:\Users\Subha\Desktop\Projects\Maersk\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\Subha\Desktop\Projects\Maersk\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
