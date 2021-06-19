@@ -10,6 +10,7 @@ using ProductPromotion;
     public int GetTotalCartPrice(Order order) {
 
         var distinctIDs = order.Products.Select(x => x.Id).Distinct();
+
         //Get promotional Price
         var promotions = IncludePromotions();
         int sum = 0;
@@ -20,9 +21,13 @@ using ProductPromotion;
             var promotionOffer = promotions.FirstOrDefault(d => d.PromotionId == id.ToString());
 
             //Calculation Logic
-            if (promotionOffer != null) {
+            if (promotionOffer != null)
+            {
                 sum = sum + (countIDs / promotionOffer.PromotionIdNumbers) * promotionOffer.PromoPrice
                       + (countIDs % promotionOffer.PromotionIdNumbers) * GetProductPrice(id);
+            }
+            else {
+                sum = sum + GetProductPrice(id);
             }
 
         }
@@ -30,6 +35,7 @@ using ProductPromotion;
         return sum;
     }
 
+    //Add promotion Offers, It can be create in a dictionary to add future promotions.
     private IList<PromotionCode> IncludePromotions() {
         
         //Create Promotional Offer List
@@ -37,12 +43,14 @@ using ProductPromotion;
                 {
                     new PromotionCode("A", 3, 130),
                     new PromotionCode("B", 2, 45),
-                    new PromotionCode("C", 1, 20)
+                    new PromotionCode("CD", 1, 20)
                 };
 
         return promotions;
     }
 
+
+    //Statis Values of Product Prices.
     private int GetProductPrice(string id) {
         int price = 0;
         switch (id)
