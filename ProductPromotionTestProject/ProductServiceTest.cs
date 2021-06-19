@@ -20,7 +20,7 @@ namespace ProductPromotionTestProject
                 new Product("C"),
                 new Product("D") });
             var resultPrice = service.GetTotalCartPrice(order);
-            Assert.AreEqual(100, resultPrice, "Mismatch With discount promotion");
+            Assert.AreEqual(115, resultPrice, "Mismatch With discount promotion");
 
             //Order 2
             Order order2 = new Order(1, new List<Product>() {
